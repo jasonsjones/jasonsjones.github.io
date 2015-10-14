@@ -1,0 +1,13 @@
+# Site settings
+title: "JJ's Blog"
+email: me@jasonsjones.com
+description: > # this means to ignore newlines until "baseurl:"
+    Description will go here...
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://jasonsjones.github.io" # the base hostname & protocol for your site
+twitter_username: jsj0nes
+github_username:  jasonsjones
+
+# Build settings
+markdown: kramdown
+permalink: pretty
