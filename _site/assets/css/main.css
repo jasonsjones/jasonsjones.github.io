@@ -1,0 +1,38 @@
+body {
+  font-family: "Arial", sans-serif; }
+
+body, ul {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  clear: both; }
+
+.navbar {
+  height: 75px;
+  width: 100%;
+  background-color: #444;
+  overflow: auto;
+  font-size: 22px; }
+  .navbar .logo {
+    float: left;
+    margin: 20px 0 0 40px; }
+    .navbar .logo span {
+      color: #fff;
+      letter-spacing: 0.125em;
+      font-size: 28px;
+      font-weight: bold; }
+  .navbar nav ul {
+    list-style: none;
+    margin: 25px 0 0 20px;
+    float: right; }
+  .navbar nav li {
+    display: inline-block;
+    margin-right: 30px; }
+  .navbar nav li a {
+    color: #999;
+    text-decoration: none; }
+    .navbar nav li a:hover {
+      color: #fff; }
