@@ -20,6 +20,12 @@ header {
   background: url("../img/BainbridgeFerry.jpg") center bottom;
   background-size: cover; }
 
+footer {
+  background-color: #ccc; }
+  footer section {
+    width: 33.33%;
+    float: left; }
+
 .navbar {
   height: 75px;
   width: 100%;
