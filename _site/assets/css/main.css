@@ -21,10 +21,18 @@ header {
   background-size: cover; }
 
 footer {
-  background-color: #ccc; }
+  background-color: #ccc;
+  min-height: 200px; }
   footer section {
-    width: 33.33%;
-    float: left; }
+    margin: 0 auto;
+    width: 31%;
+    float: left;
+    padding: 10px; }
+    footer section ul {
+      list-style: none; }
+    footer section a {
+      text-decoration: none;
+      color: #555; }
 
 .navbar {
   height: 75px;

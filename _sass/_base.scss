@@ -27,9 +27,21 @@ header {
 
 footer {
     background-color: #ccc;
+    min-height: 200px;
 
     section {
-        width: 33.33%;
+        margin: 0 auto;
+        width: 31%;
         float: left;
+        padding: 10px;
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #555;
+        }
     }
 }
