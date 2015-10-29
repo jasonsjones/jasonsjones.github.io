@@ -1,0 +1,36 @@
+footer {
+    background-color: #ccc;
+    min-height: 200px;
+    overflow: auto;
+
+    section {
+        margin: 10px auto;
+        width: 31%;
+        float: left;
+        padding: 10px;
+
+        h4 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            line-height: 1.5em;
+        }
+
+        a {
+            text-decoration: none;
+            color: #555;
+        }
+    }
+
+    .copyright {
+        clear: both;
+        text-align: center;
+        color: #888;
+        font-size: 16px;
+        font-style: italic;
+        padding-top: 20px;
+        margin-bottom: 15px;
+    }
+}
