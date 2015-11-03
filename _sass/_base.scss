@@ -23,6 +23,24 @@ header {
     height: 500px;
     background: url("../img/BainbridgeFerry.jpg") center bottom;
     background-size: cover;
+    overflow: auto;
+
+    .header-content {
+        width: 600px;
+        background-color: rgba(255, 255, 255, 0.3);
+        text-align: center;
+        margin: 150px 0 0 150px;
+        padding: 10px;
+        color: #000;
+        h1 {
+            font-size: 48px;
+            margin: 0 0 15px 0;
+        }
+        h3 {
+            color: #333;
+            font-style: italic;
+        }
+    }
 }
 
 .main-content {
