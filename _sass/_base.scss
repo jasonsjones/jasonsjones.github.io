@@ -50,4 +50,33 @@ header {
         margin: 20px 0 10px;
         color: #555;
     }
+
+    .posts {
+        margin-top: 30px;
+        list-style: none;
+        font-size: 18px;
+        line-height: 1.5em;
+
+        a {
+            text-decoration: none;
+            color: #222;
+        }
+    }
+}
+
+.blog {
+    color: #222;
+    margin: 25px 0;
+    width: 768px;
+    p {
+        line-height: 1.1em;
+        margin-bottom: 10px;
+    }
+    .highlight {
+        margin: 20px 0 20px 40px;
+    }
+    .blog-title {
+        color: #555;
+        margin-bottom: 20px;
+    }
 }
