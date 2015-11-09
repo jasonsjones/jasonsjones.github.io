@@ -16,6 +16,8 @@ body  {
     width: 960px;
     margin: 0 auto;
     clear: both;
+    /*border: 1px solid red;*/
+    overflow: auto;
 }
 
 header {
@@ -45,6 +47,9 @@ header {
 
 .main-content {
     min-height: 400px;
+    /*border: 1px solid blue;*/
+    width: 700px;
+    float: left;
 
     h1 {
         margin: 20px 0 10px;
@@ -74,6 +79,13 @@ header {
             font-style: italic;
         }
     }
+}
+
+.sidebar {
+    /*border: 1px solid green;*/
+    width: 250px;
+    margin-top: 20px;
+    float: right;
 }
 
 .blog {
