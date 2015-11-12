@@ -10,6 +10,25 @@
     overflow: auto;
 }
 
+header {
+    height: 500px;
+    overflow: auto;
+
+    .header-content {
+        width: 600px;
+    }
+}
+
+.main-content {
+    min-height: 400px;
+    width: 700px;
+    float: left;
+}
+
+.blog {
+    width: 768px;
+}
+
 .sidebar {
     width: 250px;
     margin-top: 20px;
