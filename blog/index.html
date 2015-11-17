@@ -4,22 +4,29 @@ layout: default
 
 <div class="container">
 
-    <div class="main-content">
-        <h1>Blog</h1>
-        <p>Check out all the posts...</p>
+    <section class="main-content col-sm-7 col-sm-offset-1">
+        <h1>Blog Posts</h1>
 
         <ul class="posts">
             {% for post in site.posts %}
             <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                <span class="post-date">
-                    {{ post.date | date_to_string }}
-                </span>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p class="post-data">by {{post.author}} |
+                    <span class="post-date">
+                        {{ post.date | date_to_string }}
+                    </span>
+                </p>
             </li>
             {% endfor %}
         </ul>
 
-    </div>
+    </section>
+
+    <aside class="about-author col-sm-3">
+        <h3>About the Author</h3>
+        <img src="http://placehold.it/200x200" alt="">
+        <p>Jason Jones is transitioning from a career in the military to ...</p>
+    </aside>
 
 </div>
 
