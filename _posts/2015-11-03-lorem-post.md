@@ -1,6 +1,7 @@
 ---
 layout: blog_entry
 title:  "Lorem"
+author: Jason Jones
 date:   2015-11-03
 categories: lorem
 ---

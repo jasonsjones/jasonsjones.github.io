@@ -1,6 +1,7 @@
 ---
 layout: blog_entry
 title:  "Welcome to Jekyll!"
+author: Jason Jones
 date:   2015-10-12 19:48:02
 categories: jekyll update
 ---
