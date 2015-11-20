@@ -42,9 +42,14 @@ header {
 
     .posts {
         margin-top: 30px;
-        list-style: none;
-        font-size: 18px;
-        line-height: 1.5em;
+        .blog-post {
+            background-color: #eee;
+            padding: 5px 0 10px 20px;
+            margin: 20px 0 0 0;
+            .post-excerpt {
+                font-size: 16px;
+            }
+        }
 
         a {
             text-decoration: none;
@@ -57,6 +62,7 @@ header {
 
         .post-data {
             margin-left: 35px;
+            font-size: 18px;
         }
 
         .post-date {

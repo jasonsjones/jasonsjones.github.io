@@ -7,18 +7,21 @@ layout: default
     <section class="main-content col-sm-7 col-sm-offset-1">
         <h1>Blog Posts</h1>
 
-        <ul class="posts">
+        <div class="posts">
             {% for post in site.posts %}
-            <li>
+            <div class="blog-post">
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <p class="post-data">by {{post.author}} |
                     <span class="post-date">
                         {{ post.date | date_to_string }}
                     </span>
                 </p>
-            </li>
+                <div class="post-excerpt">
+                    {{ post.excerpt }}
+                </div>
+            </div>
             {% endfor %}
-        </ul>
+        </div>
 
     </section>
 
