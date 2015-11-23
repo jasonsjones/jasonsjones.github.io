@@ -1,10 +1,13 @@
 
 header {
-    height: 500px;
+    height: 600px;
     margin-top: 50px;
     overflow: auto;
 
-    background: url("../img/BainbridgeFerry.jpg") center bottom;
+    background: url("../img/BainbridgeFerry_600.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
     background-size: cover;
 
     .header-content {
@@ -27,7 +30,7 @@ header {
 }
 
 .main-content {
-    min-height: 400px;
+    min-height: 600px;
 
     h1 {
         color: #555;
@@ -39,36 +42,39 @@ header {
         margin: 0 0 15px 0;
     }
 
-    .posts {
-        margin-top: 30px;
-        .blog-post {
-            background-color: #eee;
-            padding: 5px 0 10px 20px;
-            margin: 10px 0 10px 0;
-            .post-excerpt {
-                font-size: 16px;
-            }
-        }
+}
 
-        a {
-            text-decoration: none;
-            color: #222;
+.posts {
+    margin-top: 30px;
 
-            &:hover {
-                color: #777;
-            }
-        }
+    .blog-post {
+        background-color: #eee;
+        padding: 5px 10px 20px;
+        margin: 10px 0 10px 0;
 
-        .post-data {
-            margin-left: 35px;
-            font-size: 18px;
-        }
-
-        .post-date {
-            color: #000;
-            font-style: italic;
+        .post-excerpt {
+            font-size: 16px;
         }
     }
+
+    a {
+        text-decoration: none;
+        color: #222;
+
+        &:hover {
+            color: #777;
+        }
+    }
+}
+
+.post-data {
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.post-date {
+    color: #000;
+    font-style: italic;
 }
 
 .about-author {
@@ -82,15 +88,6 @@ header {
 .sidebar {
     h3 {
         border-bottom: 2px solid #555;
-    }
-
-    ul {
-        list-style: none;
-        font-size: 16px;
-
-        li {
-            margin-bottom: 15px;
-        }
     }
 }
 
@@ -110,14 +107,16 @@ header {
         font-size: 15px;
     }
 
-    .blog-title {
-        font-size: 42px;
-        color: #555;
-        margin-bottom: 20px;
-    }
 
-    .blog-meta {
-        font-size: 18px;
-        color: #828282;
-    }
+}
+
+.blog-title {
+    font-size: 42px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.blog-meta {
+    font-size: 18px;
+    color: #828282;
 }
