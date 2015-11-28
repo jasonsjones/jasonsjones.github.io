@@ -49,6 +49,42 @@ header {
     color: white;
 }
 
+@media (max-width: 992px) {
+    header {
+        .header-content {
+            h1 {
+                font-size: 52px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    header {
+        .header-content {
+            h1 {
+                font-size: 48px;
+            }
+        }
+    }
+
+    .down-button {
+        text-align: center;
+        bottom: 20px;
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    header {
+        .header-content {
+            h1 {
+                font-size: 36px;
+            }
+        }
+    }
+}
+
 .main-content {
     min-height: 600px;
 
