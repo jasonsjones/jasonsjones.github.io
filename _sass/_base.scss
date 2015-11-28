@@ -5,13 +5,13 @@
 }
 
 header {
-    height: 600px;
+    height: 950px;
     margin-top: 50px;
     overflow: auto;
 
     background: url("../img/BainbridgeFerry_600.jpg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-attachment: fixed;
     background-size: cover;
 
@@ -35,6 +35,18 @@ header {
             font-style: italic;
         }
     }
+}
+
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: right;
+    padding: 0 40px 0 0;
+}
+
+.down-button i {
+    color: white;
 }
 
 .main-content {

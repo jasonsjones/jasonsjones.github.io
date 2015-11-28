@@ -5,4 +5,9 @@ $(document).ready(function () {
         $('.header-content').addClass('animated fadeInLeft');
     }
 
+    $('.down-button').addClass('animated shake');
+
+    $('.down-button').click(function () {
+        $(this).fadeOut('slow');
+    })
 });
