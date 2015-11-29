@@ -1,5 +1,5 @@
 footer {
-    background-color: #ccc;
+    background-color: #444;
     min-height: 200px;
     overflow: auto;
 
@@ -8,6 +8,10 @@ footer {
 
         h4 {
             margin-bottom: 10px;
+            color: darken(#F5F1CE, 30);
+        }
+        p {
+            color: #F5F1CE;
         }
 
         ul {
@@ -17,7 +21,7 @@ footer {
 
         a {
             text-decoration: none;
-            color: #555;
+            color: #F5F1CE;
         }
     }
 
