@@ -108,7 +108,6 @@ header {
         .post-excerpt {
             font-size: 16px;
         }
-
         .post-data {
             margin-left: 35px;
             font-size: 18px;
@@ -117,14 +116,13 @@ header {
             color: #000;
             font-style: italic;
         }
-    }
+        a {
+            text-decoration: none;
+            color: #222;
 
-    a {
-        text-decoration: none;
-        color: #222;
-
-        &:hover {
-            color: #777;
+            &:hover {
+                color: #777;
+            }
         }
     }
 }
