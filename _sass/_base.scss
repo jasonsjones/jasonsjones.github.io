@@ -85,6 +85,23 @@ header {
     }
 }
 
+.banner-slim {
+    margin-top: 50px;
+    width: 100%;
+    height: 130px;
+    background-image: url('../img/blog-header.jpg');
+    background-size: cover;
+    overflow: auto;
+
+    h1 {
+        background-color: rgba(254, 254, 254, 0.5);
+        padding: 20px;
+        display: inline-block;
+        border-radius: 10px;
+        color: black;
+    }
+}
+
 .main-content {
     min-height: 600px;
 
@@ -95,6 +112,14 @@ header {
     p {
         @include para-text;
     }
+}
+
+.middle-img {
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/puget-sound.jpg');
+    background-size: cover;
+    background-attachment: fixed
 }
 
 .posts {
