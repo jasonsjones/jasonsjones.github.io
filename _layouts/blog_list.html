@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    {% include head.html %}
+    <body>
+        {% include navbar.html %}
+        <div class="banner-slim">
+            <div class="container">
+                <h1>Blog Posts</h1>
+            </div>
+        </div>
+
+        {{ content }}
+
+        {% include footer.html %}
+        <script src="/assets/js/jquery-2.1.4.min.js"></script>
+        <script src="/assets/js/bootstrap.min.js"></script>
+        <script src="/assets/js/site.js"></script>
+    </body>
+</html>
