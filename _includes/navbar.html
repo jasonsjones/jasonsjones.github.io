@@ -18,14 +18,14 @@
                 <li {% if page.url == '/index.html' %} class="active" {% endif %}>
                     <a href="/"><i class="fa fa-home"></i> Home</a>
                 </li>
-                <li {% if page.url == '/blog/index.html' %} class="active" {% endif %}>
-                    <a href="/blog"><i class="fa fa-pencil"></i> Blog</a>
-                </li>
-                <li {% if page.url == '/about/index.html' %} class="active" {% endif %}>
-                    <a href="/#about"><i class="fa fa-info-circle"></i> About</a>
+                <li {% if page.url == '/#about' %} class="active" {% endif %}>
+                    <a href="#about"><i class="fa fa-info-circle"></i> About</a>
                 </li>
                 <li {% if page.url == '/contact/index.html' %} class="active" {% endif %}>
                     <a href="/"><i class="fa fa-envelope"></i> Contact</a>
+                </li>
+                <li {% if page.url == '/blog/index.html' %} class="active" {% endif %}>
+                    <a href="/blog"><i class="fa fa-pencil"></i> Blog</a>
                 </li>
             </ul>
         </div>
