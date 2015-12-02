@@ -114,6 +114,27 @@ header {
     }
 }
 
+.about {
+    min-height: 200px;
+    margin-bottom: 20px;
+    h1 {
+        color: #555;
+    }
+
+    p {
+        @include para-text;
+    }
+
+    img {
+        margin: 25px auto;
+    }
+    .caption {
+        color: #999;
+        font-style: italic;
+    }
+
+}
+
 .middle-img {
     width: 100%;
     height: 600px;
