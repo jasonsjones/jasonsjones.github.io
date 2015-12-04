@@ -1,12 +1,12 @@
 $(document).ready(function () {
     // code will go here...
 
-    $('.down-button').addClass('animated shake');
+    // $('.down-button').addClass('animated shake');
 
-    $('.down-button').click(function () {
+    $('nav a, .down-button a').bind('click', function () {
         $('html, body').animate({
-            scrollTop: $('#next-section').offset().top-50
+            scrollTop: $($(this).attr('href')).offset().top - 50
         }, 1500);
-        $(this).fadeOut('slow');
+        event.preventDefault();
     });
 });
