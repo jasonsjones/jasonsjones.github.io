@@ -159,9 +159,6 @@ header {
         margin: 10px 0 10px 0;
         border-radius: 10px;
 
-        .post-excerpt {
-            font-size: 16px;
-        }
         .post-data {
             margin-left: 35px;
             font-size: 18px;
@@ -176,6 +173,19 @@ header {
 
             &:hover {
                 color: #777;
+            }
+        }
+        .post-excerpt {
+            font-size: 16px;
+            p {
+                @include para-text;
+                margin: 0;
+            }
+            .read-more a {
+                color: #00688b;
+                &:hover {
+                    text-decoration: underline;
+                }
             }
         }
     }
@@ -239,3 +249,4 @@ header {
     font-size: 18px;
     color: #828282;
 }
+
