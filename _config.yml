@@ -2,7 +2,7 @@
 title: Officer 2 Engineer
 email: jsjones96@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    The journey from a military officer to software engineer
+    The journey from military officer to software engineer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jasonsjones.github.io" # the base hostname & protocol for your site
 twitter_username: jsj0nes
