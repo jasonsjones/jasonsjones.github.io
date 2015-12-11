@@ -1,9 +1,10 @@
 ---
-layout: blog_entry
+layout: blog_post
 title:  "Lorem"
 author: Jason Jones
 date:   2015-11-03
 categories: lorem
+comments: false
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque in
 orci id tincidunt. Sed malesuada turpis eget blandit tempus. Mauris tortor quam,
