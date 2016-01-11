@@ -1,6 +1,6 @@
 footer {
     background-color: #444;
-    min-height: 200px;
+    min-height: 400px;
     overflow: auto;
 
     .footer-row {
@@ -16,22 +16,25 @@ footer {
 
         ul {
             list-style: none;
-            line-height: 1.5em;
+            line-height: 2em;
         }
 
         a {
             text-decoration: none;
             color: #F5F1CE;
+
+            &:hover {
+                color: #9d9d9d;
+            }
         }
     }
 
     .copyright {
         clear: both;
         text-align: center;
-        color: #888;
+        color: #9d9d9d;
         font-size: 16px;
         font-style: italic;
-        padding-top: 20px;
-        margin-bottom: 15px;
+        padding-top: 75px;
     }
 }
