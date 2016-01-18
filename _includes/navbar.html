@@ -26,7 +26,11 @@
                     {% endif %}
                 </li>
                 <li>
-                    <a href="/"><i class="fa fa-envelope"></i> Contact</a>
+                    {% if page.url == '/index.html'%}
+                    <a href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+                    {% else %}
+                    <a href="/index.html#contact"><i class="fa fa-envelope"></i> Contact</a>
+                    {% endif %}
                 </li>
                 <li {% if page.url == '/blog/index.html' %} class="active" {% endif %}>
                     <a href="/blog"><i class="fa fa-pencil"></i> Blog</a>
