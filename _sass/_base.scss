@@ -234,3 +234,11 @@ header {
         color: white;
     }
 }
+
+@media (max-width: 992px) {
+    .contact {
+        .btn {
+            margin-bottom: 20px;
+        }
+    }
+}
