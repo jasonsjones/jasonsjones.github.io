@@ -146,6 +146,7 @@ header {
 .about {
     min-height: 200px;
     margin-bottom: 20px;
+
     h1 {
         color: #555;
     }
@@ -157,6 +158,7 @@ header {
     img {
         margin: 25px auto;
     }
+
     .caption {
         color: #999;
         font-style: italic;
@@ -164,12 +166,34 @@ header {
 
 }
 
-.middle-img {
+.second-img {
     width: 100%;
     height: 600px;
     background-image: url('../img/puget-sound.jpg');
     background-size: cover;
     background-attachment: fixed
+}
+
+.third-img {
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/san-diego-bay.jpg');
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#portfolio {
+    .lead {
+        padding: 0 25px;
+    }
+}
+
+#projects {
+    text-align: center;
+
+    img {
+        margin: 0 auto 20px;
+    }
 }
 
 .about-author {
