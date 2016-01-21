@@ -189,10 +189,28 @@ header {
 }
 
 #projects {
-    text-align: center;
 
-    img {
-        margin: 0 auto 20px;
+    .panel-heading {
+        text-align: center;
+    }
+
+    .panel-body {
+        img {
+            margin: 0 auto 20px;
+        }
+
+        h4 {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            li {
+                margin-bottom: 10px;
+            }
+        }
+
     }
 }
 
