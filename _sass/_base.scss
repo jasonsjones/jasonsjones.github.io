@@ -182,13 +182,18 @@ header {
     background-attachment: fixed
 }
 
-#portfolio {
+.portfolio {
+    padding-top: 50px;
+
+    h1 {
+        color: #555;
+    }
     .lead {
         padding: 0 25px;
     }
 }
 
-#projects {
+.projects {
 
     .panel-heading {
         text-align: center;
