@@ -20,6 +20,13 @@
                 </li>
                 <li>
                     {% if page.url == '/index.html'%}
+                    <a href="#portfolio"><i class="fa fa-table"></i> Portfolio</a>
+                    {% else %}
+                    <a href="/index.html#portfolio"><i class="fa fa-table"></i> Portfolio</a>
+                    {% endif %}
+                </li>
+                <li>
+                    {% if page.url == '/index.html'%}
                     <a href="#about"><i class="fa fa-info-circle"></i> About</a>
                     {% else %}
                     <a href="/index.html#about"><i class="fa fa-info-circle"></i> About</a>
