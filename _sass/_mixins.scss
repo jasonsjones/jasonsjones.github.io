@@ -1,0 +1,15 @@
+@mixin cover-img($file, $h) {
+    width: 100%;
+    height: $h;
+    background-image: url($file);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed
+}
+
+@mixin para-text {
+    line-height: 1.7em;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
