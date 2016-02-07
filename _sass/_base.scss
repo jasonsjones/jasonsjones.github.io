@@ -121,6 +121,7 @@ header {
 
     p {
         @include para-text;
+        color: #555;
     }
 }
 
