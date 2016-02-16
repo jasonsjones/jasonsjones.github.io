@@ -7,27 +7,34 @@ comments: false
 ---
 
 I've been using git as my version control system for several years now.  In fact, it is
-the only version control system I have ever used with regularity.  My use case in the past had been
-mainly focused on ensuring my local repositories were version controlled and that I had the
-ability to 'roll back' to previous versions, if necessary.  I also use Github regularly to ensure
-my code stays in sync between the various machines I may be using to develop.  I mainly develop on
-my main desktop workstation at home, and occasionally use a chromebook when I'm away from home.
-When I'm away from my desktop, either on the road or at work (Shhhh...don't tell my boss), I use
-the cloud9 IDE, which is an awesome cloud based development environment and very well may be a
-future blog post topic.  Git (and Github) ensures the code base stays insync between the various
-machines, which is exactly what it is intended to do.
+the only version control system I have ever used with any regularity.  My typical use case in the
+past had been mainly focused on ensuring my local repositories were version controlled, basically
+that I had the ability to 'roll back' to previous versions, if necessary.  I also use Github
+regularly to ensure my code stays in sync between the various workstations I may be using to
+develop.  I mainly develop on my main desktop at home, and occasionally use a chromebook when I'm
+away from my home desktop. When I'm away from my desktop, either on the road or at work
+(Shhhh...don't tell my boss), I use the cloud9 IDE, which is an awesome cloud based development
+environment and very well may be a future blog post topic.  Git (and Github) ensures the code
+base stays in sync between the various machines, which is exactly what it is intended to do.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque in
-orci id tincidunt. Sed malesuada turpis eget blandit tempus. Mauris tortor quam,
-efficitur sit amet orci at, porta tempus nisl. Quisque non lacus at tellus auctor
-sollicitudin id ut enim. Duis a suscipit mauris. Fusce vel velit malesuada,
-varius libero at, commodo dolor. Duis cursus sed est vitae dictum. Ut
-malesuada arcu eu mattis auctor. Vestibulum porttitor leo tempor dolor
-tincidunt, suscipit placerat nibh faucibus. Etiam dictum, tortor in consectetur
-vehicula, velit ante mollis metus, eu egestas nulla ligula quis arcu.
+Since none of my projects have had any use other than on my local development computers, I hadn't
+had the need to configure any remote repositories, other than github, that is until recently...
+In an effort to understand the process from development to production, I decided to host a
+full-stack project that I had been working on on a digitalocean droplet.  Before I get to the
+punchline of this post, I think it may be useful to show you how I was getting code on the
+production server (the digitalocean droplet).  Actually, I'm a little embarrassed to the share,
+but the workflow went something like this:
 
-Nam in sem id enim luctus sagittis. Nulla facilisi. Praesent imperdiet elit vitae
-feugiat tristique. Pellentesque maximus dapibus erat vel commodo. In hac
-habitasse platea dictumst. Morbi ornare imperdiet velit. Duis cursus mollis ex,
-sit amet vulputate nibh ultricies id. Maecenas ipsum est, ultrices vitae libero eu,
-lobortis placerat arcu.
+#### Previous Workflow
+1. Make local changes on a development workstation
+2. Commit changes and push commit to the github repository with `git push origin master`, which
+was the only remote repository configured for the project.
+3. Get remote access to the digitalocean droplet via an ssh connection and log in to the
+digitalocean droplet.
+4. Navigate the project directory, which was previously set up with a
+`git clone git@github.com:username/repo`, and do a `git pull` to pull down the latest changes
+that were just pushed to github in step 2.
+
+After doing this several times, I knew there had to be a better way to do this than firing
+up another terminal window and getting remote access to the digitalocean droplet and pulling down
+the changes by hand.
