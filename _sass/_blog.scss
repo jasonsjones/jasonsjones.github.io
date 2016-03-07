@@ -45,14 +45,14 @@
     color: #222;
     margin: 25px 0;
 
-    p {
+    p, ul, ol {
         @include para-text;
     }
 
     .highlight {
         margin: 20px 0;
         padding: 15px;
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
