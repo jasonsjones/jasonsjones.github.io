@@ -11,13 +11,14 @@ the only version control system I have ever used with any regularity.  My typica
 past had been mainly focused on ensuring my local repositories were version controlled, basically
 that I had the ability to 'roll back' to previous versions, if necessary.  I also use Github
 regularly to ensure my code stays in sync between the various workstations I may be using to
-develop.  I mainly develop on my main desktop at home, and occasionally use a chromebook when I'm
-away from my home desktop. When I'm away from my desktop, either on the road or at work
+develop.  I mainly develop on my workstation at home, and occasionally use a chromebook when I'm
+away from my home workstation. When I'm away from home, either on the road or at work
 (Shhhh...don't tell my boss), I use the cloud9 IDE, which is an awesome cloud based development
 environment and very well may be a future blog post topic.  Git (and Github) ensures the code
-base stays in sync between the various machines, which is exactly what it is intended to do.
+stays in sync between the various machines, which is exactly what it is intended to do.
 
-Since none of my projects have had any use other than on my local development computers, I hadn't
+### The Problem
+Since none of the projects have had any use other than on my local development computers, I hadn't
 had the need to configure any remote repositories, other than github, that is until recently...
 In an effort to understand the process from development to production, I decided to host a
 full-stack project that I had been working on on a digitalocean droplet.  Before I get to the
@@ -29,7 +30,7 @@ but the workflow went something like this:
 1. Make local changes on a development workstation
 2. Commit changes and push commit to the github repository with `git push origin master`, which
 was the only remote repository configured for the project.
-3. Get remote access to the digitalocean droplet via an ssh connection and log in to the
+3. Then gain remote access to the digitalocean droplet via an ssh connection and log in to the
 digitalocean droplet.
 4. Navigate the project directory, which was previously set up with a
 `git clone git@github.com:username/repo`, and do a `git pull` to pull down the latest changes
@@ -37,4 +38,27 @@ that were just pushed to github in step 2.
 
 After doing this several times, I knew there had to be a better way to do this than firing
 up another terminal window and getting remote access to the digitalocean droplet and pulling down
-the changes by hand.
+the changes by hand.  After a little research, I learned that my intuition was correct--there
+is in fact a better way to synchronize changes to the production server.
+
+### The Solution
+The solution is simple: set up a bare git repository on the production server and *push* the changes
+to that repo just as you would do to Github.  The following covers how I set up this environment
+on a digitalocean droplet.
+
+#### On the Production Server
+{% highlight bash %}
+$ cd to/where/you/want/the/repo
+$ mkdir repoDir && cd repoDir
+$ mkdir theSite.git && cd theSite.git
+$ git init --bare
+{% endhighlight %}
+
+`--bare` creates a bare repository, which will have none of the source files, only theSite
+version control.
+
+When the repository is created with `git init --bare`, several directories and files are created,
+one which is the `hooks` directory.  This directory contains some sample files for possible actions
+that you can hook and perform user-defined custom actions.
+
+There are three possible server hooks: _'pre-receive'_, _'post-receive'_, and _'update'_
