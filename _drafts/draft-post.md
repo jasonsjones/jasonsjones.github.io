@@ -47,6 +47,8 @@ to that repo just as you would do to Github.  The following covers how I set up 
 on a digitalocean droplet.
 
 #### On the Production Server
+First, we will need to initialize a bare git repository on the production server.
+
 {% highlight bash %}
 $ cd to/where/you/want/the/repo
 $ mkdir repoDir && cd repoDir
@@ -54,11 +56,44 @@ $ mkdir theSite.git && cd theSite.git
 $ git init --bare
 {% endhighlight %}
 
-`--bare` creates a bare repository, which will have none of the source files, only theSite
-version control.
+`--bare` creates a bare repository, which will not include any of the source files; it will only
+contain _theSite_ git version control tree.
 
 When the repository is created with `git init --bare`, several directories and files are created,
 one which is the `hooks` directory.  This directory contains some sample files for possible actions
 that you can hook and perform user-defined custom actions.
 
-There are three possible server hooks: _'pre-receive'_, _'post-receive'_, and _'update'_
+According to the git documentation, hooks are little scripts that you can use to trigger action
+at certain points.
+
+There are three possible server hooks: _'pre-receive'_, _'post-receive'_, and _'post-update'_
+
+For this task, we will focus on the _post-receive_ hook.  From the git man page, this hook is
+invoked on the remote repository when a `git push` is done on a local repository.  It executes on
+the remote repository once after all the refs have been updated.
+
+So fire up your favorite text editor and create a file called _post-receive_ with the following
+contents:
+
+{% highlight bash %}
+#!/bin/bash
+git --work-tree=$HOME/projects/mean-sandbox --git-dir=$HOME/projects/meansandbox.git checkout -f
+{% endhighlight %}
+
+Basically, this script tells the `--work-tree` directory to update the source files located within
+with the changes that was just pushed to the `--git-dir` repository.  This ensures the
+source directory that is serving the production code is in sync with the git repository that
+receives the updates from the your local development machine.  We will set up the local development
+machine in the next section.
+
+Once the file is saved, make sure the script is executable.  To do this, simply run the below
+command at the command line
+
+{% highlight bash %}
+$ chmod u+x post-receive
+{% endhighlight %}
+
+#### On Local Development Workstation
+{% highlight bash %}
+$ git remote add production user@domain.com:path/to/git/repository.git
+{% endhighlight %}
