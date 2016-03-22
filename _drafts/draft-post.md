@@ -77,7 +77,7 @@ contents:
 
 {% highlight bash %}
 #!/bin/bash
-git --work-tree=$HOME/projects/mean-sandbox --git-dir=$HOME/projects/meansandbox.git checkout -f
+git --work-tree=$HOME/location/of/the/project --git-dir=$HOME/location/of/repo/theSite.git checkout -f
 {% endhighlight %}
 
 Basically, this script tells the `--work-tree` directory to update the source files located within
@@ -94,6 +94,14 @@ $ chmod u+x post-receive
 {% endhighlight %}
 
 #### On Local Development Workstation
+
+Now let's configure the local development machine to be able to push to the production server to
+kick off the script.  We need to tell the local repository about the new remote repository.  Simply
+set up the remote repository just as you would any other remote repository in git.  Open up a
+terminal and issue the following command:
+
 {% highlight bash %}
-$ git remote add production user@domain.com:path/to/git/repository.git
+$ git remote add production user@domain.com:location/of/repo/theSite.git
 {% endhighlight %}
+
+Here, we call the remote repository `production`
