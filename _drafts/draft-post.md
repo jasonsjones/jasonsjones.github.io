@@ -7,10 +7,10 @@ comments: false
 ---
 
 I've been using git as my version control system for several years now.  In fact, it is
-the only version control system I have ever used with any regularity.  My typical use case in the
-past had been mainly focused on ensuring my local repositories were version controlled, basically
-that I had the ability to 'roll back' to previous versions, if necessary.  I also use Github
-regularly to ensure my code stays in sync between the various workstations I may be using to
+the only version control system I have ever used with any regularity.  In the past, my typical
+use case had always been focused on ensuring my local repositories were 'version controlled',
+basically that I had the ability to 'roll back' to previous versions, if necessary.  I also use
+Github regularly to ensure my code stays in sync between the various workstations I may be using to
 develop.  I mainly develop on my workstation at home, and occasionally use a chromebook when I'm
 away from my home workstation. When I'm away from home, either on the road or at work
 (Shhhh...don't tell my boss), I use the cloud9 IDE, which is an awesome cloud based development
