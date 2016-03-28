@@ -34,6 +34,16 @@ the sole reason.  The main reason for the transition was because it was simply w
 For the first time in my career, up to that point, I was able to make a decision based soley on what
 I wanted to do based on what aligned best with my interests and passions, which was a huge motivator.
 
+The first job I had after I transitioned was to attend Naval Postgraduate School and join the
+MOVES Institute to study modeling, virtual environments, and simulation (MOVES).  The MOVES curiculum
+is best described as a mix of computer scienece and operations research.  It was during my
+studies at NPS that I found a passion for software development.  Much of the early computer science
+programming courses were intented to be a means to end, by that I mean, they were to teach the
+students, who all came from very diverse academic backgrounds, the tools that they would need to
+effectively do the research and analysis for their respective theses.  These courses also provided
+the foundation of knowledge for the students to be best equipped to head out to their respective
+uniformed services or government agencies and manage large scale modeling and simulation programs.
+
 One of the best things about jekyll is the number of freely available themes
 that you can fork and begin using right away to make a good looking
 right-out-of-the-box site. But where is the fun in that...? This site has been
