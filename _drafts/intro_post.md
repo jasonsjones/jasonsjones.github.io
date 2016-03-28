@@ -13,14 +13,26 @@ blogging platform that inspired me to get in and get my hands dirty. That is...u
 I've come across [jekyll](https://jekyllrb.com), a static site generator, and
 [github pages](https://pages.github.com)&mdash;and now here I am with my very own blog.
 
-Well, maybe before I go too much further, it may be helpful to learn a little more about me.  I'm
-a retired Naval Officer who served as a Naval Flight Officer and Information Professional during
-my 20 year career. As a Naval Flight Officer, or NFO, I flew in the P-3C Orion conducting
-maritime patrol operations and occassionally a little anti-submarine warfare.  I then transitioned
-to the Information Professional Community where I served as a Carrier Strike Group Communications
-Officer, a division chief of space operaations for the space functional component command of
-U.S. Stategic Command, and the Director of Coporate Operations & Information Systems for the
-Navy's lead organization for mine warfare.
+Well, maybe before I go too much further, it may be helpful to know a little more about me.  I'm
+a retired Naval Officer who, during my 20 year career, served as a Naval Flight Officer and
+Information Professional. As a Naval Flight Officer, or NFO, I flew in the P-3C Orion conducting
+maritime patrol operations and occassionally a little anti-submarine warfare.  After a few tours as
+a NFO, I transitioned to the Information Professional Community where I had the opportunity to serve
+as a Carrier Strike Group Communications Officer, a division chief of space operaations for the
+space functional component command of U.S. Stategic Command, and as Director of Corporate
+Operations & Information Systems for the Navy's lead organization for mine warfare.
+
+Why did I transtion from NFO to Information Professional you ask...?  Well, although I mentioned
+above that 'NFO' stands for _Naval Flight Officer_, some have said it actually stands for
+_No Future Outside_&mdash;outside the Navy that is.  This is in large part because our expertise in
+the aircraft is focused on tactics and the various weapons systems and their employment.  The pilots
+are the ones that log all the mulit-engine flight time, which has an obvious one-to-one translation
+in the civilian sector.
+
+Although the above _No Future Outside_ description had some influence for the decision, it wasn't
+the sole reason.  The main reason for the transition was because it was simply what I wanted to do.
+For the first time in my career, up to that point, I was able to make a decision based soley on what
+I wanted to do based on what aligned best with my interests and passions, which was a huge motivator.
 
 One of the best things about jekyll is the number of freely available themes
 that you can fork and begin using right away to make a good looking
