@@ -9,11 +9,11 @@ As a long time technology enthusiast, I've wanted to start a blog for quite some
 have never felt anything I had to say was worth the time for others to read.  Also, being a
 self-described tech enthusiast, I've always been just as interested in the technology and platform
 as I was in the content. In the past, I had not been able to find the right blogging platform that
-inspired me to get in and get my hands dirty. That is...until now.  Recently, I've come across
+inspired me to get in and get my hands dirty. That is...until now.  Recently, I came across
 [jekyll](https://jekyllrb.com), a static site generator, and
 [github pages](https://pages.github.com)&mdash;and now here I am with my very own blog.
 
-Well, maybe before I go too much further, it may be helpful to know a little more about me.  I'm
+Well, before I go too much further, it may be helpful to know a little more about me.  I'm
 a retired Naval Officer who, during my 20 year career, served as a Naval Flight Officer and
 Information Professional. As a Naval Flight Officer, or NFO, I flew in the P-3C Orion conducting
 maritime patrol operations and occassionally a little anti-submarine warfare.  After a few tours as
@@ -35,8 +35,8 @@ For the first time in my career, up to that point, I was able to make a decision
 I wanted to do based on what aligned best with my interests and passions, which was a huge motivator.
 
 The first job I had after I transitioned to the Information Professional Community was to attend
-Naval Postgraduate School and join the MOVES Institute to study modeling, virtual environments,
-and simulation (MOVES).  The MOVES curiculum is best described as a mix of computer scienece and
+[Naval Postgraduate School](http://www.nps.edu) and join the [MOVES Institute](https://movesinstitute.org)
+to study modeling, virtual environments, and simulation (MOVES).  The MOVES curiculum is best described
 operations research.  It was during my studies at NPS that I found a passion for software
 development.  Much of the early computer science programming courses were intented to be a means
 to end, by that I mean, they were to teach the students, who all came from very diverse academic
@@ -56,22 +56,3 @@ With the decision made to become a software engineer after I retired from the Na
 I now faced was how to best execute the transition from a career as a Naval Officer to that
 of a software engineer.  How did I do it, you ask.  Well, I think the answer to that question is best
 tackled in another blog post...
-
-
-
-One of the best things about jekyll is the number of freely available themes
-that you can fork and begin using right away to make a good looking
-right-out-of-the-box site. But where is the fun in that...? This site has been
-implemented from the ground up, relying on only a few third-party
-libraries&mdash;namely [jquery](https://jquery.com), [bootstrap](http://getbootstrap.com),
-and [font-awesome](https://fortawesome.github.io/Font-Awesome).
-Yeah, I can hear you are saying that you can tell it has been implemented from
-the ground up because of the apparent lack of design aesthetics. But I will
-say that beauty is in the eye of the beholder.
-
-The intent of the project is two-fold. While the idea of starting a blog to
-have a platform to share my thoughts and challenges, and hopefully, share
-how I may have managed to overcome those challenges, is a large motivator, I
-think the greater motivator is challenge of creating the blog itself. I have
-no doubt that I am going to learn a ton with this project, and that excites
-me&mdash;so let's get to it!
