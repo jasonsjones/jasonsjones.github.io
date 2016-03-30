@@ -5,12 +5,12 @@ categories: general
 comments: false
 ---
 
-As a long time technology enthusiast, I've wanted to start a blog for quite some time; however, I
-have never felt anything I had to say was really all that worthy to put out there for others to
-read. Also, being a self described tech enthusiast, I've always been just as interested in the
-technology and platform as I was in the content. In the past, I had not been able to find the right
-blogging platform that inspired me to get in and get my hands dirty. That is...until now.  Recently,
-I've come across [jekyll](https://jekyllrb.com), a static site generator, and
+As a long time technology enthusiast, I've wanted to start a blog for quite some time. However, I
+have never felt anything I had to say was worth the time for others to read.  Also, being a
+self-described tech enthusiast, I've always been just as interested in the technology and platform
+as I was in the content. In the past, I had not been able to find the right blogging platform that
+inspired me to get in and get my hands dirty. That is...until now.  Recently, I've come across
+[jekyll](https://jekyllrb.com), a static site generator, and
 [github pages](https://pages.github.com)&mdash;and now here I am with my very own blog.
 
 Well, maybe before I go too much further, it may be helpful to know a little more about me.  I'm
@@ -46,8 +46,17 @@ best equipped to head out to their respective uniformed services or government a
 large scale modeling and simulation programs.
 
 It was during my years at NPS that I began to think about what I wanted to do for my post-navy
-career and what always came to mind was how cool it would be to be able to write code for a living.
-I started to think that maybe a career as a software engineer was in the cards for me.
+career. What always seemed to came to mind, time after time, was how cool it would be to be able
+to write code for a living. I started to think that maybe a career as a software engineer was what
+I wanted to do.  The more and more I thought about it, the more I knew that becoming a software
+engineer was what I wanted to do.  I also had the unwavering support from my wife as well, which
+makes all the difference in the world.
+
+With the decision made to become a software engineer after I retired from the Navy, the challenge
+I now faced was how to best execute the transition from a career as a Naval Officer to that
+of a software engineer.  How did I do it, you ask.  Well, I think the answer to that question is best
+tackled in another blog post...
+
 
 
 One of the best things about jekyll is the number of freely available themes
