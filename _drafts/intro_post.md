@@ -5,17 +5,18 @@ categories: general
 comments: false
 ---
 
-As a long time technology enthusiast, I've wanted to start a blog for quite some time. However, I
-have never felt anything I had to say was worth the time for others to read.  Also, being a
-self-described tech enthusiast, I've always been just as interested in the technology and platform
-as I was in the content. In the past, I had not been able to find the right blogging platform that
-inspired me to get in and get my hands dirty. That is...until now.  Recently, I came across
+As a long time technology enthusiast, I've wanted to start a blog for quite some time. However, I've
+never felt anything I had to say was worth the time for others to read.  Also, as a self-described
+tech enthusiast, I've always been just as interested in the technology and blogging platform as I am
+in the content.  In the past, I had been unable to find a blogging platform that inspired
+me to get in and get my hands dirty&mdash;that is...until now.  Recently, I came across
 [jekyll](https://jekyllrb.com), a static site generator, and
 [github pages](https://pages.github.com)&mdash;and now here I am with my very own blog.
 
 Well, before I go too much further, it may be helpful to know a little more about me.  I'm
 a retired Naval Officer who, during my 20 year career, served as a Naval Flight Officer and
-Information Professional. As a Naval Flight Officer, or NFO, I flew in the P-3C Orion conducting
+Information Professional. As a Naval Flight Officer, or NFO, I flew in the
+[P-3C Orion](https://en.wikipedia.org/wiki/Lockheed_P-3_Orion) conducting
 maritime patrol operations and occassionally a little anti-submarine warfare.  After a few tours as
 a NFO, I transitioned to the Information Professional Community where I had the opportunity to serve
 as a Carrier Strike Group Communications Officer, a division chief of space operaations for the
@@ -27,7 +28,10 @@ above that 'NFO' stands for _Naval Flight Officer_, some have said it actually s
 _No Future Outside_&mdash;outside the Navy that is.  This is in large part because our expertise in
 the aircraft is focused on tactics and the various weapons systems and their employment.  The pilots
 are the ones that log all the mulit-engine flight time, which has an obvious one-to-one translation
-in the civilian sector.
+in the civilian sector.  So basically, the need for someone versed in maritime patrol or anti-submarine
+warfare tactics is somewhat limited to a specific sector of the civilian workforce, and no offense
+intended, but that is not the particular sector that I wanted to target when it came my time to
+transition to a civilian career.
 
 Although the above _No Future Outside_ description had some influence for the decision, it wasn't
 the sole reason.  The main reason for the transition was because it was simply what I wanted to do.
