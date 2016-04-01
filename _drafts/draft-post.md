@@ -93,7 +93,7 @@ command at the command line
 $ chmod u+x post-receive
 {% endhighlight %}
 
-#### On Local Development Workstation
+#### On Local Workstation
 
 Now let's configure the local development machine to be able to push to the production server to
 kick off the script.  We need to tell the local repository about the new remote repository.  Simply
@@ -105,3 +105,11 @@ $ git remote add production user@domain.com:location/of/repo/theSite.git
 {% endhighlight %}
 
 Here, we call the remote repository `production`
+
+Now, whenever you make a change to the local repository on the development workstation, you can _push_
+the changes to the production server just as you would any other remote git repository.  To push the
+`master` branch to the newly configured production git repository, issue the following command:
+
+{% highlight bash %}
+$ git push production master
+{% endhighlight %}
