@@ -113,3 +113,8 @@ the changes to the production server just as you would any other remote git repo
 {% highlight bash %}
 $ git push production master
 {% endhighlight %}
+
+This will push the changes to the remote repository which will, in turn, trigger to the _post-receive_
+script we previously set up on the remote, or production, server.  The _post-receive_ script will
+force the `--work-tree` directory hosting the actual source code files to checkout the latest
+changes in the `--git-dir` directory which contains the git repository.
