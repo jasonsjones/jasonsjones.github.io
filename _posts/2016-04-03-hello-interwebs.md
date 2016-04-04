@@ -1,3 +1,4 @@
+---
 layout: blog_post
 title:  "Hello Interwebs"
 author: Jason Jones
@@ -13,6 +14,8 @@ in the content.  In the past, I had been unable to find a blogging platform that
 me to get in and get my hands dirty&mdash;that is...until now.  Recently, I came across
 [jekyll](https://jekyllrb.com), a static site generator, and
 [github pages](https://pages.github.com)&mdash;and now here I am with my very own blog.
+
+### About Me
 
 Well, before I go too much further, it may be helpful to know a little more about me.  I'm
 a retired Naval Officer who, during my 20 year career, served as a Naval Flight Officer and
@@ -60,8 +63,10 @@ makes all the difference in the world.
 With the decision made to become a software engineer after I retired from the Navy, the challenge
 I now faced was how to best execute the transition from a career as a Naval Officer to that
 of a software engineer.  How did I do it, you ask.  Well, I think the answer to that question is best
-tackled in another blog post...
+tackled in another blog post.
+
+### New Job
 
 Now fast forward to today--I am finishing this post on April 3, 2016.  I am excited to say that I'll
 be starting my first day at [Salesforce](http://www.salesforce.com) tomorrow as a full-stack
-software engineer.  It was a long road to get here, but I'm here nonetheless.
+software engineer for the Community Cloud team.  It was a long road to get here, but I'm here nonetheless.
