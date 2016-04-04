@@ -47,6 +47,12 @@
 
     p, ul, ol {
         @include para-text;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 26px;
+        color: #000060;
     }
 
     .highlight {
