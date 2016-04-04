@@ -23,8 +23,8 @@ Information Professional. As a Naval Flight Officer, or NFO, I flew in the
 [P-3C Orion](https://en.wikipedia.org/wiki/Lockheed_P-3_Orion) conducting
 maritime patrol operations and occassionally a little anti-submarine warfare.  After a few tours as
 a NFO, I transitioned to the Information Professional Community where I had the opportunity to serve
-as a Carrier Strike Group Communications Officer, a division chief of space operaations for the
-space functional component command of U.S. Stategic Command, and as Director of Corporate
+as a Carrier Strike Group Communications Officer, a division chief of space operations for the
+space functional component command of U.S. Strategic Command, and as Director of Corporate
 Operations & Information Systems for the Navy's lead organization for mine warfare.
 
 Why did I transtion from NFO to Information Professional you ask...?  Well, although I mentioned
@@ -33,9 +33,8 @@ _No Future Outside_&mdash;outside the Navy that is.  This is in large part becau
 the aircraft is focused on tactics and the various weapons systems and their employment.  The pilots
 are the ones that log all the mulit-engine flight time, which has an obvious one-to-one translation
 in the civilian sector.  So basically, the need for someone versed in maritime patrol or anti-submarine
-warfare tactics is somewhat limited to a specific sector of the civilian workforce, and no offense
-intended, but that is not the particular sector that I wanted to target when it came my time to
-transition to a civilian career.
+warfare tactics is somewhat limited to a specific sector of the civilian workforce, and that is not
+the particular sector I wanted to target when it came my time to transition to a civilian career.
 
 Although the above _No Future Outside_ description had some influence for the decision, it wasn't
 the sole reason.  The main reason for the transition was because it was simply what I wanted to do.
@@ -53,7 +52,7 @@ respective theses.  These courses also provided the foundation of knowledge for 
 best equipped to head out to their respective uniformed services or government agencies and manage
 large scale modeling and simulation programs.
 
-It was during my years at NPS that I began to think about what I wanted to do for my post-navy
+It was during my years at NPS when I began to think about what I wanted to do for my post-navy
 career. What always seemed to came to mind, time after time, was how cool it would be to be able
 to write code for a living. I started to think that maybe a career as a software engineer was what
 I wanted to do.  The more and more I thought about it, the more I knew that becoming a software
