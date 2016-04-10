@@ -66,6 +66,8 @@ tackled in another blog post.
 
 ### New Job
 
-Now fast forward to today--I am finishing this post on April 3, 2016.  I am excited to say that I'll
-be starting my first day at [Salesforce](http://www.salesforce.com) tomorrow as a full-stack
-software engineer for the Community Cloud team.  It was a long road to get here, but I'm here nonetheless.
+Now fast forward to today--which, as of this writing is April 3, 2016--I am excited to say that I'll
+be starting my first day at [Salesforce](http://www.salesforce.com) tomorrow, April 4th, 2016, as a
+full-stack software engineer for the Community Cloud team.  I'm not entirely sure what to expect, but
+I know is going to be a blast figuring things out in a new environment. And to top it all off, they
+have free coffee--I've never had free coffee!
