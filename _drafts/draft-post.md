@@ -2,6 +2,7 @@
 layout: blog_post
 title:  "Using Git to Push to Production"
 author: Jason Jones
+date:   2016-06-16
 categories: development
 comments: false
 ---
@@ -13,7 +14,7 @@ basically that I had the ability to 'roll back' to previous versions, if necessa
 Github regularly to ensure my code stays in sync between the various workstations I may be using to
 develop.  I mainly develop on my workstation at home, and occasionally use a chromebook when I'm
 away from my home workstation. When I'm away from home, either on the road or at work
-(Shhhh...don't tell my boss), I use the cloud9 IDE, which is an awesome cloud based development
+(Shhhh...don't tell my [old] boss), I use the [cloud9 IDE](https://c9.io), which is an awesome cloud based development
 environment and very well may be a future blog post topic.  Git (and Github) ensures the code
 stays in sync between the various machines, which is exactly what it is intended to do.
 
@@ -21,7 +22,7 @@ stays in sync between the various machines, which is exactly what it is intended
 Since none of the projects have had any use other than on my local development computers, I hadn't
 had the need to configure any remote repositories, other than github, that is until recently...
 In an effort to understand the process from development to production, I decided to host a
-full-stack project that I had been working on on a digitalocean droplet.  Before I get to the
+full-stack project that I had been working on on a [digitalocean](https://digitalocean.com) droplet.  Before I get to the
 punchline of this post, I think it may be useful to show you how I was getting code on the
 production server (the digitalocean droplet).  Actually, I'm a little embarrassed to the share,
 but the workflow went something like this:
